@@ -1,0 +1,9 @@
+RewriteEngine On
+
+#aqui criamos uma condição para que os arquivos sejam ignorados nas regras abaixo
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#aqui criamos uma condição para que diretórios sejam ignorados nas regras abaixo
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?url=$1 [NC,L]
