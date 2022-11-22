@@ -2,7 +2,7 @@
 
 define('APP', dirname(__FILE__));
 
-define('URL', 'http://localhost/framework');
+define('URL', 'http://localhost/FrameworkPHP-PraticasMVC');
 
 define('APP_MODE', 'Curso de PHP7 Orientado a Objeto e MVC');
 

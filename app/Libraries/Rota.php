@@ -52,11 +52,7 @@ class Rota {
         // var_dump($this);
     }
 
-    /**
-     * Recupera a URL
-     * 
-     * @return array $url
-     */
+    //Recupera a url
     private function url()
     {
       $url = filter_input(INPUT_GET,'url', FILTER_SANITIZE_URL); //Filtra os dados aártir da url
