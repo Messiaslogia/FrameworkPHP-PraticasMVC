@@ -18,7 +18,10 @@
 <body>
 
     <?php
+        include '../app/Views/topo.php';
         $rotas = new Rota();
+        include '../app/Views/rodape.php';
+
        
     ?>
 
