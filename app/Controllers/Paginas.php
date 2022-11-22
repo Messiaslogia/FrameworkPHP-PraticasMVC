@@ -4,11 +4,18 @@ class Paginas extends Controller{
 
     public function index()
     {
-        $this->view('paginas/home');
+        $dados = [
+            'titulo' => 'Página Inicial',
+            'descricao'=> 'PHP7'
+        ];
+        $this->view('paginas/home', $dados);
     }
 
     public function sobre()
     {
-        # code...
+        $dados = [
+            'tituloPagina' => 'Página sobre nós'
+        ];
+        $this->view('paginas/sobre', $dados);
     }
 }
