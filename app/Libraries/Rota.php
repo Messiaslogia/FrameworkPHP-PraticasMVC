@@ -32,6 +32,9 @@ class Rota {
        require_once '../app/Controllers/'. $this->controlador.'.php';
        $this->controlador = new $this->controlador;
 
+
+
+
        // Verifica se existe um metodo na url  e seta o valor na variavel "metodo"
        if(isset($url[1])):
             if(method_exists($this->controlador, $url[1])): //Verifica se o metodo existe dentro do controlador
@@ -39,6 +42,8 @@ class Rota {
                 unset($url[1]);
             endif;
         endif;
+
+
 
         //Verifica se existe parametros na URL e seta o valor na variavel "parametros"
         $this->parametros = $url ? array_values($url) : [];
