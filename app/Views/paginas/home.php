@@ -7,7 +7,7 @@
         <div class="col-md-4 text-center">
 
             <div class="img-fluid logo">
-                <img src="<?=URL?>/public/img/images.png" alt="" class="rounded-circle">
+                <img src="<?php echo URL;?>/public/img/images.png" alt="" class="rounded-circle">
             </div>
         </div>
     </div>
