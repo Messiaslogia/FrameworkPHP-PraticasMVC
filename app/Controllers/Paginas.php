@@ -18,4 +18,5 @@ class Paginas extends Controller{
         ];
         $this->view('paginas/sobre', $dados);
     }
+
 }
