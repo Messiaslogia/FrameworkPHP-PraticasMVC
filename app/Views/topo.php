@@ -14,6 +14,9 @@
           <li class="nav-item">
             <a class="nav-link" href="<?=URL?>/paginas/sobre">Sobre</a>
           </li>
+          <li class="nav-item">
+            <a class="btn btn-info" href="<?=URL?>/usuarios/cadastrar">Cadastrar</a>
+          </li>
         </ul>
       </div>
     </nav>
